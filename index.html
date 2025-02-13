@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Timezones</title>
+    <!-- Adicionando o select2 CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/bootStrapCss.css" />
+    <link rel="stylesheet" href="/select2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Timezones</h1>
+
+      <!-- Exibe o horário local -->
+      <div class="time-display">
+        <h2>Your Current Location:</h2>
+        <p id="local-time">Fetching...</p>
+      </div>
+
+      <!-- Seção para selecionar a cidade -->
+      <div class="city-selection">
+        <h2>Select a City:</h2>
+        <select id="timezone-select">
+          <option value="">Select a city</option>
+          <option value="America/New_York">New York</option>
+          <option value="Europe/London">London</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+        </select>
+
+        <!-- Exibe o horário da cidade selecionada -->
+        <div id="selected-time">
+          <p>Selected City: Choose a city to see the time.</p>
+        </div>
+      </div>
+
+      <!-- Exibe os horários de todas as cidades -->
+      <div id="all-cities"></div>
+
+      <!-- Botão para mostrar os horários de todas as cidades -->
+      <button id="all-cities-btn" class="btn">Show All Cities Time</button>
+    </div>
+
+    <!-- Rodapé com o link para o repositório -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p>
+          View this project on GitHub by
+          <span style="color: rgb(255, 178, 191)"
+            ><strong>Nicole Antunes:</strong></span
+          >
+          <a
+            href="https://github.com/nicoleAntunes2/worldTimeZone1.git"
+            target="_blank"
+            >World Timezone Repository</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="/function.js"></script>
+    <script src="/jquery.js"></script>
+    <script src="/bootStrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.time-display,
+.city-selection {
+  margin-bottom: 20px;
+}
+
+/* Estilizando o select2 */
+.select2-container--default .select2-selection--single {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.select2-container .select2-selection__arrow {
+  height: 40px;
+  margin-top: 5px;
+}
+
+/* Estilizando o botão */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #007bff;
+  margin: 0;
+}
+
+/* Estilizando a área de exibição de tempo */
+#selected-time p {
+  margin: 10px 0;
+  color: #333;
+}
+
+#local-time {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.city-selection {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Exibição da cidade selecionada */
+#selected-time p {
+  font-size: 18px;
+}
